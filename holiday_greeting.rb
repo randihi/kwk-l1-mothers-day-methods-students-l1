@@ -3,13 +3,13 @@ def holiday_greeting(to, from, holiday)
 	puts "Happy #{holiday}, #{to}! - From #{from}"
 end
 
-puts "Welcome! What's your name?"
-name = gets.chomp
+puts "Welcome to this program! What's your name?"
+user_name = gets.chomp
 
-puts "Who would you like to send the card to?"
-send = gets.chomp
+puts "Thanks, #{user_name}. Who would you like to send a holiday greeting to?"
+send_to = gets.chomp
 
-puts "For what holiday?"
-holiday_name = gets.chomp
+puts "Thanks. What holiday are you sending this for?"
+holiday = gets.chomp
 
-puts holiday_greeting(send, name, holiday_name)
+puts holiday_greeting(send_to, user_name, holiday)
