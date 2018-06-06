@@ -1,5 +1,6 @@
 def holiday_greeting(to, from, holiday)
-  puts "To: #{to} From: #{from} Happy #{holiday}!"
+  "Happy #{holiday}, #{to}! - From #{from}"
+	puts "Happy #{holiday}, #{to}! - From #{from}"
 end
 
 puts "Welcome! What's your name?"
